@@ -32,7 +32,7 @@ for aluno in alunos:
     if status == "aprovado":
         alunosAprovados.append(aluno)
     else:
-        alunosReprovados.append(aluno)
+        alunosReprovados.append(aluno)   
 
 for aluno in alunosAprovados:
     print(f"Aluno: {aluno['nome']}, Status: Aprovado, Média: {calculaMedia(sum(aluno['notas']), len(aluno['notas']))}, Faltas: {aluno['faltas']}")
